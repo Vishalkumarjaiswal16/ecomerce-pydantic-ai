@@ -1,0 +1,21 @@
+[project]
+name = "ecomerce-pydantic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "passlib[bcrypt]",
+    "pymongo",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart",
+    "logfire",
+    "logfire[fastapi]",
+    "nest-asyncio",
+    "pydantic-ai",
+    "groq",
+    "pydantic-ai-slim[tavily]"
+]
